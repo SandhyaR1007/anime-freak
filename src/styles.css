@@ -1,4 +1,44 @@
+body {
+  background-color: #e7f1ef;
+  font-family: "Lato", sans-serif;
+}
 .App {
   font-family: sans-serif;
-  text-align: center;
+  width: auto;
+  margin: auto;
+  max-width: 450px;
+}
+
+#category {
+  margin: 30px 5px;
+  margin-top: 40px;
+  padding: 10px 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #58b19f;
+  color: white;
+  cursor: pointer;
+}
+.divider {
+  height: 1px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background-color: rgb(88, 87, 87);
+}
+.description {
+  margin: 10px 0px;
+  padding: 20px 10px;
+  border: 1px solid rgb(165, 161, 161);
+  border-radius: 10px;
+  background-color: #b3e4dc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title {
+  font-size: 18px;
+}
+.info {
+  font-size: 15px;
+  margin: 5px 0px;
 }
